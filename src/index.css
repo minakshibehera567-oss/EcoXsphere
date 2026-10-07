@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-slate-950: #020718;
+  --color-slate-900: #071530;
+  --color-slate-850: #0b1e42;
+  --color-slate-800: #102652;
+  --color-slate-750: #163266;
+  --color-slate-700: #1d3d78;
+  --color-slate-600: #294e94;
+}
+
+body {
+  background-color: #020718;
+  background-image: 
+    radial-gradient(at 15% 10%, rgba(30, 80, 180, 0.28) 0px, transparent 60%),
+    radial-gradient(at 85% 90%, rgba(20, 60, 150, 0.24) 0px, transparent 60%),
+    radial-gradient(at 50% 50%, rgba(5, 18, 48, 0.9) 0px, transparent 100%),
+    linear-gradient(180deg, #020617 0%, #06132d 40%, #030a1c 80%, #01040f 100%);
+  background-attachment: fixed;
+  color: #f1f5f9;
+  min-height: 100vh;
+}

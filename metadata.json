@@ -1,0 +1,6 @@
+{
+  "name": "EcoXsphere: Institution Facility Intelligence",
+  "description": "Personalized AI-powered facility intelligence, sustainability analytics, and predictive resource monitoring platform for institutions, campuses, and industrial estates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
